@@ -1,0 +1,188 @@
+@import './Fonts.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  border: none;
+  background: none;
+}
+
+.container {
+  max-width: 1440px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+.header__container {
+  padding: 0 80px;
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background: #fff;
+}
+
+.header__logo {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 28px;
+  color: #22262a;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.header__link {
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 18px;
+  color: #22262a;
+}
+
+.header__menu {
+  cursor: pointer;
+}
+
+/* HEADER */
+/* HERO */
+
+.hero__container {
+  position: relative;
+  background: url(./assets/images/hero-img.jpg) no-repeat;
+  height: calc(100vh - 115px);
+  margin-bottom: 100px;
+}
+
+.hero__txt {
+  max-width: 450px;
+  position: absolute;
+  right: 110px;
+  bottom: 120px;
+  margin-bottom: 25px;
+}
+
+.hero__subtitle {
+  font-weight: 500;
+  font-size: 18px;
+  color: #22262a;
+  text-transform: uppercase;
+}
+
+.hero__title {
+  font-weight: 700;
+  font-size: 70px;
+  color: #22262a;
+  text-transform: uppercase;
+}
+
+.hero__buttons {
+  position: absolute;
+  right: 180px;
+  bottom: 70px;
+  display: flex;
+  gap: 30px;
+}
+
+.hero__btn {
+  cursor: pointer;
+  width: 147px;
+  height: 35px;
+  background: #22262a;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+}
+
+/* HERO */
+/* WOMEN */
+.women__container {
+  display: flex;
+  flex-direction: column;
+  gap: 65px;
+}
+
+.women__title {
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  color: #22262a;
+}
+
+.women__subtitle {
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+  color: #22262a;
+}
+
+.women__cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  position: relative;
+}
+
+.card__img {
+  margin: 38px 0;
+}
+
+.card__title {
+  font-weight: 600;
+  font-size: 15px;
+  color: #22262a;
+}
+
+.line {
+  position: absolute;
+  bottom: 11px;
+  left: -2px;
+  border: 1px solid #22262a;
+  width: 66px;
+  height: 0px;
+}
+
+.card__brand {
+  font-weight: 300;
+  font-size: 15px;
+  color: #22262a;
+  text-transform: uppercase;
+}
+
+.price__content {
+  display: flex;
+  gap: 45px;
+}
+
+.price {
+  font-weight: 400;
+  font-size: 15px;
+  color: #22262a;
+}
+.price.second {
+  color: #cf2929;
+}
+
+/* WOMEN */
